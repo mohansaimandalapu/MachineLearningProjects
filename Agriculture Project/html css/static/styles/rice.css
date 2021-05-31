@@ -1,9 +1,7 @@
 body{
     position: relative;
-    height: 100vh;
+    height: 260vh;
 }
-
-
 
 *::before,
 *::after{
@@ -25,23 +23,17 @@ img{
 .card{
     /* other default style */
     position: absolute;
-    top: 15%;
-    right: 80%;
+    right: 400px;
     margin: 0 auto;
     display: grid;
     grid-template-rows: 1fr 6fr 1fr;
   }
 
-.card div{
-    grid-row: 2/3;
-  }
-
-
 
 .blog-post{
-    position: fixed;
-    grid-row: 2/3;
-    grid-column: 2/3;
+
+    grid-row: 2/4;
+    grid-column: 2/4;
     width: 100%;
     max-width: 98rem;
     padding: 5rem;
@@ -85,8 +77,8 @@ img{
 .blog-post-title{
     position: absolute;
     text-transform: uppercase;
-    top: 3%;
-    right:10%;
+    top: 14%;
+    right: 10%;
     display: block;
     font-size: 2rem;
     margin: 1.5rem 0 2rem;
@@ -97,15 +89,13 @@ img{
 .Predicted-crop{
     position: absolute;
     text-transform: uppercase;
-    top: 10%;
-    left: 55%;
+    top: 20%;
+    right: 30%;
     font-size: 3.5rem;
 }
 
 
 .blog-post-text{
-    position: relative;
-
     display: block;
     margin-bottom: 1;
     font-size: 2rem;
@@ -115,8 +105,8 @@ img{
 
 .blog-post-cta{
     position: absolute;
-    right: 29%;
-    bottom: 8%;
+    right: 30%;
+    bottom: 4%;
     display: inline-block;
     padding: 1.5rem;
     letter-spacing: 1px;
@@ -279,4 +269,33 @@ text-transform: capitalize;
 text-transform: uppercase;
 opacity: .4;
 font-weight: 200;
+}
+
+
+.img-1{
+    position: absolute;
+    width: 200vh;
+    bottom: 45%;
+}
+
+.img-2{
+    position: absolute;
+    width: 200vh;
+    bottom: 15%;
+}
+
+
+.img-1-t{
+    position: absolute;
+    right: 33%;
+    top: -8%;
+    font-size: 40px;
+}
+
+
+.img-2-t{
+    position: absolute;
+    right: 25%;
+    top: -8%;
+    font-size: 40px;
 }

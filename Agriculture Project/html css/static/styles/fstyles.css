@@ -98,12 +98,12 @@ body{margin: auto;
   
 .card {
 position: absolute;
-bottom: 500px;
+bottom: 400px;
 left: 180px;
 width: fit-content;
 display: grid;
-grid-template-columns: 400px;
-grid-template-rows: 300px 250px 100px;
+grid-template-columns:450px;
+grid-template-rows: 300px 450px 100px;
 grid-template-areas: "image" "text" "stats";
 border-radius: 18px;
 box-shadow: 5px 5px 15px rgba(0,0,0,0.9);
@@ -215,7 +215,7 @@ footer{
     max-width: 500px;
     margin: 10px auto;
     line-height: 28px;
-    font-size: 14px;
+    font-size: 16px;
     }
     
     .socials{
@@ -257,7 +257,7 @@ footer{
     text-transform: capitalize;
     }
     
-    .footer-bottom span{
+    .footer-bottom #span1{
     text-transform: uppercase;
     opacity: .4;
     font-weight: 200;
